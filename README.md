@@ -2,6 +2,8 @@
 
 **本次项目主要针对 V1.2 小表笔版本。** 配套原理图已收录：[查看原理图 PDF](原理图/SCH_Schematic1_2_2026-09-17.pdf)。
 
+项目介绍与电路原理：[立创 Wiki：天空星数字万用表项目介绍](https://wiki.lceda.cn/zh-hans/course-projects/microcontroller/32-multimeter/circuit-theory.html)。
+
 本仓库是对已有开源工程的再次复刻与资料整理（“复刻的复刻”），用于学习、保存与交流。原始设计和代码归原作者及相应贡献者所有，本仓库不将原项目成果声明为原创。
 
 开源来源：[立创开源硬件平台：天空星-简易数字万用表拓展板](https://oshwhub.com/course-examples/tian-kong-xing-jian-yi-shu-zi-wan-yong-biao-tuo-zhan-ban)。本文的硬件介绍、原理概述及 V1.2 改动说明依据该项目的截图和说明整理。
@@ -97,6 +99,7 @@
 
 ## 5、来源与许可说明
 
+- 项目介绍与电路原理：[立创 Wiki 项目文档](https://wiki.lceda.cn/zh-hans/course-projects/microcontroller/32-multimeter/circuit-theory.html)。
 - 原项目来源：[天空星-简易数字万用表拓展板](https://oshwhub.com/course-examples/tian-kong-xing-jian-yi-shu-zi-wan-yong-biao-tuo-zhan-ban)。
 - 用户提供的原项目页面截图标注 **GPL 3.0**，但当前代码包附带的 [LICENSE](LICENSE) 文本是 **GNU AGPL Version 3**。本仓库原样保留该许可文件，记录此差异，不自行将许可替换为 GPL；如需确认原作者的授权意图，请查阅原项目或联系原作者。
 - HAL/CMSIS 等第三方组件保留各自的版权声明和许可文件。
