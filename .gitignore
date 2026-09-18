@@ -3,9 +3,14 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+**/build/
+**/out/
 
 # Other files and folders
 .settings/
+**/.cmsis/
+**/.eide/log/
+**/.eide.usr.ctx.json
 
 # Keil 编译中间文件与本机记录（保留工程、源码与现有 HEX）
 *.o
@@ -20,6 +25,12 @@ bin-release/
 *.htm
 *.uvguix.*
 *.scvd
+**/JLinkLog.txt
+**/JLinkSettings.ini
+**/*.Bak
+
+# Accidental standalone source copy
+/stm32-multimeter-V2.0/MDK-ARM/bsp_task.c
 
 # Executables
 *.swf
