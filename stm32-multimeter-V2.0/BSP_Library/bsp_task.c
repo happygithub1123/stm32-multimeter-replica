@@ -483,9 +483,9 @@ void Electricity_Task(const uint16_t ref_vol_value)
 		Electricity_MinValue = (uint16_t)((sum_tempValue[10] / 50.0f / 0.01f * 1000));
 		
 		//减去静态误差，在第一次测试时需要注释
-		Electricity_Value = Electricity_Value - 11;
-		Electricity_MaxValue = Electricity_MaxValue - 11;
-		Electricity_MinValue =Electricity_MinValue - 11;
+		Electricity_Value = Electricity_Value > 11 ? Electricity_Value - 11 : 0;
+		Electricity_MaxValue = Electricity_MaxValue > 11 ? Electricity_MaxValue - 11 : 0;
+		Electricity_MinValue = Electricity_MinValue > 11 ? Electricity_MinValue - 11 : 0;
 		
 		sprintf(showData,"%4d",Electricity_Value);	//显示实际电流值
 		TFT_ShowString(18,40,(uint8_t *)showData,RED,BLACK,32,0);
